@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+}
+
+
+
+.hero div {
+    width: 50%;
+    height: 950px;
+    position: relative;
+}
+
+.hero div:first-child .hero-image {
+    background-image: url("../images/final-frontier_large.jpg")
+}
+
+.hero div .hero-copy {
+    width: auto;
+}
+
+
+
+.hero div .hero-image {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+}
+
+
+
